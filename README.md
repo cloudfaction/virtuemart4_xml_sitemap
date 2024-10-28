@@ -15,7 +15,7 @@ This plugin generates an XML sitemap specifically for VirtueMart products. It sh
 - No additional configuration needed after installation
 
 ## Requirements
-- Joomla 3.x or 4.x
+- Joomla 3.x or 4.x or 5.x
 - VirtueMart 3.x or 4.x
 - PHP 7.2 or higher
 - SEF URLs enabled in Joomla (recommended)
