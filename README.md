@@ -6,7 +6,7 @@ This plugin generates an XML sitemap specifically for VirtueMart products. It sh
 ## Features
 - Generates XML sitemap for VirtueMart products
 - Supports SEF (Search Engine Friendly) URLs
-- Shows latest 5000 products
+- Shows latest 1000 products (easy to change in the SQL statement)
 - Dynamic priority calculation based on product age
 - Includes product modification dates
 - Supports multilingual sites
