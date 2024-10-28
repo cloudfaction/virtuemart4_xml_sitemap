@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+    <name>System - VirtueMart Sitemap</name>
+    <author>Jmodules</author>
+    <creationDate>2024-10-28</creationDate>
+    <copyright>(C) 2024 Jmodules. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.0.0</version>
+    <description>Generates XML sitemap for VirtueMart products</description>
+
+    <files>
+        <filename plugin="virtuemartsitemap">virtuemartsitemap.php</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="changefreq"
+                    type="list"
+                    label="Change Frequency"
+                    description="How frequently the products are likely to change"
+                    default="weekly"
+                    >
+                    <option value="always">Always</option>
+                    <option value="hourly">Hourly</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                    <option value="never">Never</option>
+                </field>
+                <field
+                    name="priority"
+                    type="text"
+                    label="Priority"
+                    description="Priority of the product pages (0.0 to 1.0)"
+                    default="0.8"
+                    />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
