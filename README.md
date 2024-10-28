@@ -1,7 +1,7 @@
 # VirtueMart XML Sitemap Plugin for Joomla
 
 ## Description
-This plugin generates an XML sitemap specifically for VirtueMart products. It shows the latest 5000 products with SEF (Search Engine Friendly) URLs and includes dynamic priorities based on product age and modification dates.
+This plugin generates an XML sitemap specifically for VirtueMart products. It shows the latest 1000 products with SEF (Search Engine Friendly) URLs and includes dynamic priorities based on product age and modification dates.
 
 ## Features
 - Generates XML sitemap for VirtueMart products
